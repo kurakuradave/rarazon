@@ -319,35 +319,27 @@ scrapProductReviewAmazon <- function( aURL ){
 
 
 
-################################
-###      START PROGRAM       ###
-################################
+##########################
+###      EXAMPLE       ###
+##########################
 
-myReviews3 <- scrapProductReviewAmazon( "https://www.amazon.com/Roland-FP-30-DIGITAL-PIANO-Black/product-reviews/B01B3FBDC4/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews" )
+#myReviews1 <- scrapProductReviewAmazon( "https://www.amazon.com/Alesis-Recital-Beginner-Full-Size-Semi-Weighted/product-reviews/B01DZXE9NC/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews" )
+#write.csv( myReviews1, "./Alesis_Recital.csv" )
 
-write.csv( myReviews3, './Roland_FP30.csv' )
+#myReviews2 <- scrapProductReviewAmazon("https://www.amazon.com/Alesis-VORTEXWIRELESS2-Midi-Controller/product-reviews/B078S9L1VZ/ref=cm_cr_dp_d_acr_sr?ie=UTF8&reviewerType=all_reviews")
+#write.csv( myReviews2, "./Alesis_Vortex_Wireless_2.csv" )
 
-myReviews4 <- scrapProductReviewAmazon("https://www.amazon.com/Remo-HD-8510-00-Fiberskyn-Frame-Drum/product-reviews/B0002F7KGK/ref=pd_lpo_vtph_267_bs_lp_cr_1/146-9278367-8150568?ie=UTF8&refRID=Y250MAMQPZWMCPWZSE2V")
+#myReviews3 <- scrapProductReviewAmazon( "https://www.amazon.com/Roland-FP-30-DIGITAL-PIANO-Black/product-reviews/B01B3FBDC4/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews" )
+#write.csv( myReviews3, './Roland_FP30.csv' )
 
-write.csv( myReviews4, "./Remo_Frame_Drum.csv" )
+#myReviews4 <- scrapProductReviewAmazon("https://www.amazon.com/Remo-HD-8510-00-Fiberskyn-Frame-Drum/product-reviews/B0002F7KGK/ref=pd_lpo_vtph_267_bs_lp_cr_1/146-9278367-8150568?ie=UTF8&refRID=Y250MAMQPZWMCPWZSE2V")
+#write.csv( myReviews4, "./Remo_Frame_Drum.csv" )
 
-myReviews1 <- scrapProductReviewAmazon( "https://www.amazon.com/Alesis-Recital-Beginner-Full-Size-Semi-Weighted/product-reviews/B01DZXE9NC/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews" )
+#myReviews5 <- scrapProductReviewAmazon("https://www.amazon.com/Meinl-Percussion-FD18SD-TF-18-Inch-Synthetic/product-reviews/B0033PQU3A/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews")
+#write.csv(myReviews5, "./Meinl_Sea_Drum.csv")
 
-write.csv( myReviews1, "./Alesis_Recital.csv" )
+#myReviews6 <- scrapProductReviewAmazon("https://www.amazon.com/Meinl-Percussion-FD18T-D-18-Inch-African/product-reviews/B0033PQU44/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews")
+#write.csv( "./Meinl_Deep_Shell_Tar_Natural.csv" )
 
-myReviews2 <- scrapProductReviewAmazon("https://www.amazon.com/Alesis-VORTEXWIRELESS2-Midi-Controller/product-reviews/B078S9L1VZ/ref=cm_cr_dp_d_acr_sr?ie=UTF8&reviewerType=all_reviews")
-
-write.csv( myReviews2, "./Alesis_Vortex_Wireless_2.csv" )
-
-
-myReviews5 <- scrapProductReviewAmazon("https://www.amazon.com/Meinl-Percussion-FD18SD-TF-18-Inch-Synthetic/product-reviews/B0033PQU3A/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews")
-
-write.csv(myReviews5, "./Meinl_Sea_Drum.csv")
-
-myReviews6 <- scrapProductReviewAmazon("https://www.amazon.com/Meinl-Percussion-FD18T-D-18-Inch-African/product-reviews/B0033PQU44/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews")
-
-write.csv( "./Meinl_Deep_Shell_Tar_Natural.csv" )
-
-myReviews7 <- scrapProductReviewAmazon("https://www.amazon.com/Remo-Ocean-Drum-Standard-22/product-reviews/B0002F7KS8/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews")
-
-write.csv(myReviews7, "./Remo_Ocean_Drum.csv")
+#myReviews7 <- scrapProductReviewAmazon("https://www.amazon.com/Remo-Ocean-Drum-Standard-22/product-reviews/B0002F7KS8/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews")
+#write.csv(myReviews7, "./Remo_Ocean_Drum.csv")
